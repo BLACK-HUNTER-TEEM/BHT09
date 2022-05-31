@@ -134,7 +134,7 @@ os.system('xdg-open https://www.facebook.com/ROOT.OFF.JAHIED/?ref=share')
 def menu():
     os.system('clear')
     print logo
-    print '\x1b[1;91mONLY \x1b[1;91m08 \x1b[1;91m DIGITS HACKABLE ACCOUNTS ARE AVAILABLE'
+    print '\x1b[1;91mONLY \x1b[1;91m11 \x1b[1;91m DIGITS HACKABLE ACCOUNTS ARE AVAILABLE'
     print
     jalan('\x1b[1;92m[1]  \x1b[1;92mGRAMEENPHONE')
     jalan('\x1b[1;96m[2]  \x1b[1;96mROBI')
